@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    /* display: grid; */
+    /* box-shadow: 5px 5px 10px #555; */
+    width: 1350px;
+    padding: 150px;
+    margin-left: 250px;
+    position: absolute;
+}
+.cover{
+    background-color: #fff;
+    padding: 100px;
+    box-shadow: 5px 5px 10px #555;
+    justify-content: center;
+    
+    
+}
+.box1 #one{
+    color:lightseagreen;
+    font-size: 45px;
+}
+.chu{ 
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.box1{
+    display: grid;
+    /* border: 1px solid #fff; */
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 200px;
+}
+.box2{
+    /* border: 1px solid #fff; */
+    grid-template-columns: 50% 50%;
+    height: 300px;
+    background-color: rgb(2, 173, 173);
+    text-align: center;
+    color: #fff;
+    padding: 58px;
+    line-height: 2.3;
+    text-align: left;
+}
+.box3{
+    border:2px; 
+    /* border: 1px solid #fff; */
+    background-color: rgb(36, 205, 205);
+    color:#fff;
+    text-align: center;
+    padding: 58px;
+    line-height: 2.3;
+    height: 300px;
+    text-align: left;
+}
+#two{
+    color: lightgreen;
+}
+#three{
+    color:grey;
+}
+
+#four{
+    font-size: 28px;
+    color:#fff;
+}
+.eight{
+    font-size: 32px;
+}
+.nine{
+    font-size: 17px;
+}
+.five{
+    font-size: 48px;
+}
+button{
+    background-color: greenyellow;
+    font-size: 35px;
+    color: #fff ;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    /* height: 45px */
+    padding-left: 85px;
+    padding-right: 85px;
+    line-height: 1.4;
+}
+h6{
+    text-align:start;
+}
+span{
+    font-size: 25px;
+    font-weight: 600;
+    word-spacing: 50px;
+}
+small{
+    color: lightblue;
+    
+}
